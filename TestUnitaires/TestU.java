@@ -113,8 +113,8 @@ public class TestU {
 		
 		quartier1.setVille(ville2);
 
-		//assertTrue(!ville1.getQuartiers().contains(quartier1));
-		//assertTrue(!quartier1.getVille().equals(ville1));
+		assertTrue(!ville1.getQuartiers().contains(quartier1));
+		assertTrue(!quartier1.getVille().equals(ville1));
 		assertTrue(ville2.getQuartiers().contains(quartier1));
 		assertEquals(quartier1.getVille(), ville2);
 	}
